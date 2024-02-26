@@ -12,12 +12,18 @@ const restPeriod: Exercise = { name: "Rest", duration: 5 };
 
 // Example exercises array
 const exercises: Exercise[] = [
-  { name: "Plank", duration: 30 },
-  { name: "Reverse crunch", duration: 30 },
-  { name: "Push ups", duration: 30 },
-  { name: "Push-ups", duration: 30 },
-  { name: "Jumping Jacks", duration: 30 },
-  // Add more exercises as needed
+  { name: "forearm plank", duration: 30 },
+  { name: "up & down plank", duration: 30 },
+  { name: "reverse crunch", duration: 30 },
+  { name: "push ups", duration: 30 },
+  { name: "bird dog", duration: 30 },
+  { name: "bird dog knee to elbow crunch", duration: 30 },
+  { name: "dead bug", duration: 30 },
+  { name: "hollow hold", duration: 30 },
+  { name: "stomach vaccums", duration: 30 },
+  { name: "v sit", duration: 30 },
+  { name: "v sit + rope pull", duration: 30 }
+  
 ];
 
 const App: React.FC = () => {
